@@ -1,9 +1,10 @@
 module.exports = {
+  pathPrefix: "/portfolio-2022",
   siteMetadata: {
     title: `Anna Ozola`,
     description: `Anna Ozola Portfolio`,
     author: `Anna Ozola`,
-    copyright: "Copyright 2023 Anna Ozola",
+    copyright: "Copyright 2024 Anna Ozola",
     siteUrl: `https://www.annaozola.com`,
   },
   plugins: [

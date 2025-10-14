@@ -38,6 +38,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.31",
+    "gh-pages": "^6.3.0",
     "prettier": "^2.6.2"
   },
   "keywords": [
@@ -45,6 +46,7 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
